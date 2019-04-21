@@ -1,0 +1,7 @@
+version: '3'
+services:
+  thing:
+    build: .
+    volumes:
+    - ${REPOS}:/gitlogg/_repos
+    - ${OUTPUT}:/gitlogg/_output
